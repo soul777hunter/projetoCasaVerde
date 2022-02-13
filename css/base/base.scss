@@ -1,0 +1,51 @@
+@import "reset", "variaveis", "../componentes/cabecalho", "../componentes/botoes", "../componentes/input", "../componentes/cartao", "../componentes/item", "../componentes/produto", "../componentes/video", "../componentes/rodape", "../chamada";
+
+body {
+    font-family: $familia-corpo;
+    font-size: $tamanho-corpo;
+
+    color: $cinza;
+
+    background: url(../../assets/fundo-textura.png), url(../../assets/fundo-linhas.png);
+    background-position: center;
+}
+
+.container {
+    padding: 0 1rem 0 1rem;
+}
+
+.titulo {
+    font-size: $tamanho-titulo;
+}
+
+.titulo__destaque {
+    font-family: $familia-titulo-destaque;
+    color: $preto;
+    font-size: $tamanho-titulo-destaque;
+    font-weight: $peso-titulo-destaque;
+
+    display: block;
+
+    margin: 0.75rem 0 0.75rem 0;
+}
+
+.alinhamento__esquerda {
+    text-align: left;
+}
+
+.alinhamento__meio {
+    text-align: center;
+}
+
+.texto {
+    line-height: 26px;
+}
+
+// Adjustments
+.como-conseguir {
+    margin-bottom: 5.625rem;
+}
+
+.ofertas {
+    padding-bottom: 3.9rem;
+}
